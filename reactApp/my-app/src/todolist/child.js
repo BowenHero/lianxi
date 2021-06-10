@@ -10,6 +10,7 @@ class Clock extends React.Component{
     }
     componentDidMount(){
         console.log(this.props.title);
+        console.log(88888);
         this.timer = setInterval(() => this.tick(),1000)
     }
 
