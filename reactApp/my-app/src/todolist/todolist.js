@@ -2,6 +2,7 @@ function ToDoList(props){
     console.log(props);
     console.log(props);
     console.log(props);
+    console.log(89898889);
     let {name,status} = props
     return (
         <div>
